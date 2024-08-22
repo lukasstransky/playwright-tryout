@@ -1,0 +1,24 @@
+{
+  "name": "playwright-tryout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc && tsc-alias && shx mkdir -p dist && shx cp package.json dist/",
+    "clean": "rimraf ../../dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "5.5.4"
+  },
+  "peerDependencies": {
+    "@playwright/test": "1.46.1",
+    "@playwright/experimental-ct-react": "1.46.1",
+    "@playwright/experimental-ct-react17": "1.46.1"
+  }
+}
